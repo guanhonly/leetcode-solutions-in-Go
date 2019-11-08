@@ -3,13 +3,15 @@
  * Question link: https://leetcode.com/problems/swap-nodes-in-pairs
  */
 
+package LinkedList
 /**
  * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
  */
+type ListNode struct {
+    Val int
+    Next *ListNode
+}
+
 
 /**
  * The recursive way, the code is clear but not easy
@@ -39,7 +41,7 @@ func swapPairs(head *ListNode) *ListNode {
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-func swapPairs(head *ListNode) *ListNode {
+func swapPairs2(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
     }

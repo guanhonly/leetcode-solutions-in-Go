@@ -3,6 +3,7 @@
  * Question link: https://leetcode.com/problems/valid-parentheses/
  */
 
+package StackAndQueue
 /**
  * Implementation of Stack by using slice
  */

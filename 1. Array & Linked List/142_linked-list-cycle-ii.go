@@ -2,7 +2,7 @@
  * Difficulty: Medium
  * Question link: https://leetcode.com/problems/linked-list-cycle-ii
  */
-
+package LinkedList
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

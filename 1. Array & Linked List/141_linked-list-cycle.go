@@ -3,13 +3,7 @@
  * Question link: https://leetcode.com/problems/linked-list-cycle
  */
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package LinkedList
 
 /**
  * The most intuitive way, which is easy to think of,
@@ -36,7 +30,7 @@ func hasCycle(head *ListNode) bool {
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-func hasCycle(head *ListNode) bool {
+func hasCycle2(head *ListNode) bool {
     if head == nil || head.Next == nil {
         return false
     }

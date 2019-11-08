@@ -3,6 +3,7 @@
  * Question link: https://leetcode.com/problems/implement-queue-using-stacks/
  */
 
+package StackAndQueue
 /**
  * Since Stack is not supported in the Go's official lib,
  * I implement Stack here by using slice.

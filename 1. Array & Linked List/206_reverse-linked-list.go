@@ -3,13 +3,7 @@
  * Question link: https://leetcode.com/problems/reverse-linked-list/
  */
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package LinkedList
 
 /** 
  * Iterative way. The moset efficient method.

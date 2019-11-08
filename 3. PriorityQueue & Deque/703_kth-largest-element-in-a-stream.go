@@ -1,3 +1,10 @@
+/**
+ * Difficulty: Easy
+ * Question link: https://leetcode.com/problems/kth-largest-element-in-astream/
+ */
+
+package PriorityQueueAndDeque
+
 type IntHeap []int
 func (h IntHeap) Len() int {
 	return len(h)

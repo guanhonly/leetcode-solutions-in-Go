@@ -3,13 +3,7 @@
  * Question link: https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+package LinkedList
 
 /**
  * Non-recursive way.
@@ -58,7 +52,7 @@ func reverseList(head *ListNode) *ListNode {
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-func reverseKGroup(head *ListNode, k int) *ListNode {
+func reverseKGroup2(head *ListNode, k int) *ListNode {
     prevNode, endNode := head, head
     for i:= 0; i<k-1 && endNode != nil; i++ {
         endNode = endNode.Next

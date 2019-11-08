@@ -3,6 +3,7 @@
  * Question link: https://leetcode.com/problems/sliding-window-maximum/
  */
 
+package PriorityQueueAndDeque
 /**
  * Only slice is used indeed, but used like a deque.
  * Time complexity: O(n), n is the length of nums
