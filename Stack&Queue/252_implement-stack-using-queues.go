@@ -2,53 +2,8 @@
  * Difficulty: Easy
  * Question link: https://leetcode.com/problems/implement-stack-using-queues/
  */
-
 package StackAndQueue
-/**
- * Since Queue is not supported in the Go's official lib,
- * I implement Queue here by using slice.
- */
-type Queue struct {
-	nums []int
-}
-
-func newQueue() *Queue {
-	return &Queue{
-		nums: []int{},
-	}
-}
-
-func (q *Queue) push(n int) {
-	q.nums = append(q.nums, n)
-}
-
-func (q *Queue) pop() int {
-	if q.isEmpty() {
-		return -1
-	}
-	res := q.nums[0]
-	if len(q.nums) == 1 {
-		q.nums = []int{}
-	} else {
-		q.nums = q.nums[1:]
-	}
-	return res
-}
-func (q *Queue) peek() int {
-	if q.isEmpty() {
-		return -1
-	}
-	return q.nums[0]
-}
-
-func (q *Queue) size() int {
-	return len(q.nums)
-}
-
-func (q *Queue) isEmpty() bool {
-	return q.size() == 0
-}
-
+import "../utils"
 
 /**
  * Two queues are used, there may be many other variants,
@@ -57,14 +12,14 @@ func (q *Queue) isEmpty() bool {
  * Space complexity: Push: O(n), Pop: O(1), Peek: O(1), Empty: O(1)
  */
 type MyStack struct {
-	Queue1, Queue2 *Queue
+	Queue1, Queue2 *utils.Queue
 }
 
 /** Initialize your data structure here. */
-func Constructor() MyStack {
+func Constructor3() MyStack {
 	return MyStack{
-		Queue1: newQueue(),
-		Queue2: newQueue(),
+		Queue1: utils.NewQueue(),
+		Queue2: utils.NewQueue(),
 	}
 }
 
@@ -72,17 +27,17 @@ var top int
 
 /** Push element x onto stack. */
 func (this *MyStack) Push(x int) {
-	this.Queue1.push(x)
+	this.Queue1.Push(x)
 	top = x
 }
 
 /** Removes the element on top of the stack and returns that element. */
 func (this *MyStack) Pop() int {
-	for this.Queue1.size() > 1 {
-		top = this.Queue1.pop()
-		this.Queue2.push(top)
+	for this.Queue1.Size() > 1 {
+		top = this.Queue1.Pop().(int)
+		this.Queue2.Push(top)
 	}
-	res := this.Queue1.pop()
+	res := this.Queue1.Pop().(int)
 	this.Queue1, this.Queue2 = this.Queue2, this.Queue1
 	return res
 }
@@ -94,7 +49,7 @@ func (this *MyStack) Top() int {
 
 /** Returns whether the stack is empty. */
 func (this *MyStack) Empty() bool {
-	return this.Queue1.isEmpty()
+	return this.Queue1.IsEmpty()
 }
 
 /**
@@ -103,44 +58,44 @@ func (this *MyStack) Empty() bool {
  * Time complexity: Push: O(1), Pop: O(n), Peek: O(1), Empty: O(1)
  * Space complexity: Push: O(n), Pop: O(1), Peek: O(1), Empty: O(1)
  */
-type MyStack struct {
-    Queue1, Queue2 *Queue
+type MyStack2 struct {
+    Queue1, Queue2 *utils.Queue
 }
 
 
 /** Initialize your data structure here. */
-func Constructor() MyStack {
-    return MyStack{
-        Queue1: newQueue(),
+func Constructor4() MyStack2 {
+    return MyStack2{
+        Queue1: utils.NewQueue(),
     }
 }
 
-var top int
+var top2 int
 /** Push element x onto stack. */
-func (this *MyStack) Push(x int)  {
-    this.Queue1.push(x)
+func (this *MyStack2) Push(x int)  {
+    this.Queue1.Push(x)
     top = x
 }
 
 
 /** Removes the element on top of the stack and returns that element. */
-func (this *MyStack) Pop() int {
-    originalSize := this.Queue1.size()
+func (this *MyStack2) Pop() int {
+    originalSize := this.Queue1.Size()
     for i:=0; i<originalSize-1; i++ {
-        top = this.Queue1.pop()
-        this.Queue1.push(top)
+        top = this.Queue1.Pop().(int)
+        this.Queue1.Push(top)
     }
-    return this.Queue1.pop()
+    return this.Queue1.Pop().(int)
 }
 
 
 /** Get the top element. */
-func (this *MyStack) Top() int {
+func (this *MyStack2) Top() int {
     return top
 }
 
 
 /** Returns whether the stack is empty. */
-func (this *MyStack) Empty() bool {
-    return this.Queue1.isEmpty()
+func (this *MyStack2) Empty() bool {
+    return this.Queue1.IsEmpty()
 }
