@@ -12,16 +12,16 @@ package LinkedList
  * Space complexity: O(n)
  */
 func hasCycle(head *ListNode) bool {
-    visited := make(map[*ListNode]bool)
-    currNode := head
-    for currNode != nil {
-        if visited[currNode] {
-            return true
-        }
-        visited[currNode] = true
-        currNode = currNode.Next
-    }
-    return false
+	visited := make(map[*ListNode]bool)
+	currNode := head
+	for currNode != nil {
+		if visited[currNode] {
+			return true
+		}
+		visited[currNode] = true
+		currNode = currNode.Next
+	}
+	return false
 }
 
 /**
@@ -31,16 +31,16 @@ func hasCycle(head *ListNode) bool {
  * Space complexity: O(1)
  */
 func hasCycle2(head *ListNode) bool {
-    if head == nil || head.Next == nil {
-        return false
-    }
-    fast, slow := head.Next, head
-    for fast != slow {
-        if fast == nil || fast.Next == nil {
-            return false
-        }
-        fast = fast.Next.Next
-        slow = slow.Next
-    }
-    return true
+	if head == nil || head.Next == nil {
+		return false
+	}
+	fast, slow := head.Next, head
+	for fast != slow {
+		if fast == nil || fast.Next == nil {
+			return false
+		}
+		fast = fast.Next.Next
+		slow = slow.Next
+	}
+	return true
 }

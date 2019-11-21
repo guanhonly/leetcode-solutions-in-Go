@@ -3,6 +3,7 @@
  * Question link: https://leetcode.com/problems/two-sum/
  */
 package HashTable
+
 /**
  * It's the first question in leetcode, so I think it's not
  * necessary to explain more.

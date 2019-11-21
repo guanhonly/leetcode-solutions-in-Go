@@ -3,6 +3,7 @@
  * Question link: https://leetcode.com/problems/linked-list-cycle-ii
  */
 package LinkedList
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -17,18 +18,18 @@ package LinkedList
  * Space complexity: O(n)
  */
 func detectCycle(head *ListNode) *ListNode {
-    if head == nil || head.Next == nil {
-        return nil
-    }
-    visited := make(map[*ListNode]bool)
-    for head != nil {
-        if visited[head] {
-            return head
-        }
-        visited[head] = true
-        head = head.Next
-    }
-    return nil
+	if head == nil || head.Next == nil {
+		return nil
+	}
+	visited := make(map[*ListNode]bool)
+	for head != nil {
+		if visited[head] {
+			return head
+		}
+		visited[head] = true
+		head = head.Next
+	}
+	return nil
 }
 
 /**
@@ -48,23 +49,23 @@ func detectCycle(head *ListNode) *ListNode {
  * }
  */
 func detectCycle(head *ListNode) *ListNode {
-    if head == nil || head.Next == nil {
-        return nil
-    }
-    fast, slow := head, head
-    for fast.Next != nil && fast.Next.Next != nil {
-        if fast.Next == nil {
-            return nil
-        }
-        fast = fast.Next.Next
-        slow = slow.Next
-        if fast == slow {
-            for head != fast {
-                head = head.Next
-                fast = fast.Next
-            }
-            return head
-        }
-    }
-    return nil
+	if head == nil || head.Next == nil {
+		return nil
+	}
+	fast, slow := head, head
+	for fast.Next != nil && fast.Next.Next != nil {
+		if fast.Next == nil {
+			return nil
+		}
+		fast = fast.Next.Next
+		slow = slow.Next
+		if fast == slow {
+			for head != fast {
+				head = head.Next
+				fast = fast.Next
+			}
+			return head
+		}
+	}
+	return nil
 }

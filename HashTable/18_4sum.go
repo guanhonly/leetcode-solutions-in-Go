@@ -7,6 +7,7 @@ package HashTable
 import (
 	"sort"
 )
+
 /**
  * A customized way, not universal but efficient.
  * Time complexity: O(n^3)
@@ -58,9 +59,9 @@ func threeSumForFourSum(lo, hi, target, lastNum int, nums []int, res *[][]int) {
 	}
 	for i := lo; i < hi-1; i++ {
 		currNum := nums[i]
-        if i > lo && currNum == nums[i-1] {
-            continue
-        }
+		if i > lo && currNum == nums[i-1] {
+			continue
+		}
 		if currNum+maxNum*2 < target {
 			continue
 		}
@@ -72,7 +73,7 @@ func threeSumForFourSum(lo, hi, target, lastNum int, nums []int, res *[][]int) {
 				tmp := []int{lastNum, currNum, currNum, currNum}
 				*res = append(*res, tmp)
 			}
-            return
+			return
 		}
 
 		left, right, newTarget := i+1, hi, target-currNum
@@ -114,25 +115,25 @@ func fourSum2(nums []int, target int) [][]int {
 	return res
 }
 
-func kSum(nums []int, target, k, start int, res *[][]int, path []int)  {
+func kSum(nums []int, target, k, start int, res *[][]int, path []int) {
 	n := len(nums)
 	maxNum := nums[n-1]
-	if n-start+1 < k || k < 2 || nums[start]*k > target || maxNum*k < target{
+	if n-start+1 < k || k < 2 || nums[start]*k > target || maxNum*k < target {
 		return
 	}
 	if k == 2 {
 		left, right := start, n-1
 		for left < right {
-			if nums[left] + nums[right] < target {
+			if nums[left]+nums[right] < target {
 				left++
-			} else if nums[left] + nums[right] > target {
+			} else if nums[left]+nums[right] > target {
 				right--
 			} else {
 				*res = append(*res, append(path, nums[left], nums[right]))
-				for left<right && nums[left+1] == nums[left] {
+				for left < right && nums[left+1] == nums[left] {
 					left++
 				}
-				for left<right && nums[right-1] == nums[right] {
+				for left < right && nums[right-1] == nums[right] {
 					right--
 				}
 				left++
@@ -140,19 +141,19 @@ func kSum(nums []int, target, k, start int, res *[][]int, path []int)  {
 			}
 		}
 	} else {
-		for i:=start; i< n-k+1; i++ {
+		for i := start; i < n-k+1; i++ {
 			if i > start && nums[i] == nums[i-1] {
 				continue
 			}
-			if nums[i] + maxNum*(k-1) < target {
+			if nums[i]+maxNum*(k-1) < target {
 				continue
 			}
-			if nums[i] * k > target {
+			if nums[i]*k > target {
 				break
 			}
-			if nums[i] * k == target {
+			if nums[i]*k == target {
 				if nums[i+k-1] == nums[i] {
-					for j:=0; j<k; j++ {
+					for j := 0; j < k; j++ {
 						path = append(path, nums[i])
 					}
 					*res = append(*res, path)
@@ -163,4 +164,3 @@ func kSum(nums []int, target, k, start int, res *[][]int, path []int)  {
 		}
 	}
 }
-

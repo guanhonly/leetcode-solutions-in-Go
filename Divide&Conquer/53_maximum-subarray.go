@@ -1,3 +1,7 @@
+/**
+ * Difficulty: Easy
+ * Question link: https://leetcode-cn.com/problems/maximum-subarray/
+ */
 package DivideAndConquer
 
 import "math"
@@ -7,18 +11,18 @@ import "math"
  * Space complexity: O(1)
  */
 func maxSubArray(nums []int) int {
-    maxSum := 0
-    finalMaxSum := math.MinInt32
-    for _, num := range nums {
-        maxSum += num
-        if maxSum < num {
-            maxSum = num
-        }
-        if maxSum > finalMaxSum {
-            finalMaxSum = maxSum
-        }
-    }
-    return finalMaxSum
+	maxSum := 0
+	finalMaxSum := math.MinInt32
+	for _, num := range nums {
+		maxSum += num
+		if maxSum < num {
+			maxSum = num
+		}
+		if maxSum > finalMaxSum {
+			finalMaxSum = maxSum
+		}
+	}
+	return finalMaxSum
 }
 
 /**
@@ -31,33 +35,33 @@ func maxSubArray(nums []int) int {
  * Space complexity: O(1)
  */
 func maxSubArray2(nums []int) int {
-    n := len(nums)
-    if n==1 {
-        return nums[0]
-    }
-    maxLeft := maxSubArray2(nums[:n/2])
-    maxRight := maxSubArray2(nums[n/2:])
-    maxL := nums[n/2 - 1]
-    tmp := 0
-    for i:= n/2-1; i >=0; i-- {
-        tmp += nums[i]
-        maxL = max(maxL, tmp)
-    }
-    maxR := nums[n/2]
-    tmp = 0
-    for i:=n/2; i<n; i++ {
-        tmp += nums[i]
-        maxR = max(maxR, tmp)
-    }
-    return max(maxLeft, maxRight, maxL+maxR)
+	n := len(nums)
+	if n == 1 {
+		return nums[0]
+	}
+	maxLeft := maxSubArray2(nums[:n/2])
+	maxRight := maxSubArray2(nums[n/2:])
+	maxL := nums[n/2-1]
+	tmp := 0
+	for i := n/2 - 1; i >= 0; i-- {
+		tmp += nums[i]
+		maxL = max(maxL, tmp)
+	}
+	maxR := nums[n/2]
+	tmp = 0
+	for i := n / 2; i < n; i++ {
+		tmp += nums[i]
+		maxR = max(maxR, tmp)
+	}
+	return max(maxLeft, maxRight, maxL+maxR)
 }
 
-func max(nums... int) int {
-    res := nums[0]
-    for _, num := range nums {
-        if num > res {
-            res = num
-        }
-    }
-    return res
+func max(nums ...int) int {
+	res := nums[0]
+	for _, num := range nums {
+		if num > res {
+			res = num
+		}
+	}
+	return res
 }

@@ -4,14 +4,14 @@
  */
 
 package LinkedList
+
 /**
  * Definition for singly-linked list.
  */
 type ListNode struct {
-    Val int
-    Next *ListNode
+	Val  int
+	Next *ListNode
 }
-
 
 /**
  * The recursive way, the code is clear but not easy
@@ -26,13 +26,13 @@ type ListNode struct {
  * Space complexity: O(1)
  */
 func swapPairs(head *ListNode) *ListNode {
-    if head == nil || head.Next == nil {
-        return head
-    }
-    nextNode := head.Next
-    head.Next = swapPairs(nextNode.Next)
-    nextNode.Next = head
-    return nextNode
+	if head == nil || head.Next == nil {
+		return head
+	}
+	nextNode := head.Next
+	head.Next = swapPairs(nextNode.Next)
+	nextNode.Next = head
+	return nextNode
 }
 
 /**
@@ -42,19 +42,19 @@ func swapPairs(head *ListNode) *ListNode {
  * Space complexity: O(1)
  */
 func swapPairs2(head *ListNode) *ListNode {
-    if head == nil || head.Next == nil {
-        return head
-    }
-    dummyNode := &ListNode{Val:0}
-    dummyNode.Next = head
-    currNode := dummyNode
-    for currNode.Next != nil && currNode.Next.Next != nil {
-        start := currNode.Next
-        end := currNode.Next.Next
-        start.Next = end.Next
-        end.Next = start
-        currNode.Next = end
-        currNode = start
-    }
-    return dummyNode.Next
+	if head == nil || head.Next == nil {
+		return head
+	}
+	dummyNode := &ListNode{Val: 0}
+	dummyNode.Next = head
+	currNode := dummyNode
+	for currNode.Next != nil && currNode.Next.Next != nil {
+		start := currNode.Next
+		end := currNode.Next.Next
+		start.Next = end.Next
+		end.Next = start
+		currNode.Next = end
+		currNode = start
+	}
+	return dummyNode.Next
 }

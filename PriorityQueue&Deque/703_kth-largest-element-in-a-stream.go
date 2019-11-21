@@ -6,6 +6,7 @@
 package PriorityQueueAndDeque
 
 type IntHeap []int
+
 func (h IntHeap) Len() int {
 	return len(h)
 }
@@ -31,12 +32,10 @@ func (h *IntHeap) Peek() interface{} {
 	return (*h)[0]
 }
 
-
 type KthLargest struct {
-    k int
-    myHeap IntHeap
+	k      int
+	myHeap IntHeap
 }
-
 
 func Constructor(k int, nums []int) KthLargest {
 	var myHeap IntHeap
@@ -51,7 +50,6 @@ func Constructor(k int, nums []int) KthLargest {
 	return h
 }
 
-
 func (this *KthLargest) Add(val int) int {
 	if this.myHeap.Len() < this.k {
 		heap.Push(&this.myHeap, val)
@@ -61,7 +59,6 @@ func (this *KthLargest) Add(val int) int {
 	}
 	return this.myHeap.Peek().(int)
 }
-
 
 /**
  * Your KthLargest object will be instantiated and called as such:

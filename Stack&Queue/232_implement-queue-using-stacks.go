@@ -64,7 +64,6 @@ func (this *MyQueue) Empty() bool {
 	return this.Stack1.IsEmpty() && this.Stack2.IsEmpty()
 }
 
-
 /**
  * This way may be impractical.
  * Time complexity: Push: O(n), Pop: O(1), Peek: O(1), Empty: O(1)
