@@ -40,12 +40,12 @@ func mySqrt(x int) int {
  * Space complexity: O(1)
  */
 func mySqrt2(x int) int {
-    if x == 0 || x == 1 {
-        return x
-    }
-    res := x
-    for res * res > x {
-        res = (res + x/res)/2
-    }
-    return res
+	if x == 0 || x == 1 {
+		return x
+	}
+	res := x
+	for res*res > x {
+		res = (res + x/res) / 2
+	}
+	return res
 }
