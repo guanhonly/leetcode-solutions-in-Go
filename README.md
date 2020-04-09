@@ -38,11 +38,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="5">Binary Search</td>
+        <td rowspan="10">Binary Search</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/sqrtx">69. Sqrt(x)</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/search-a-2d-matrix">74. Search a 2D Matrix</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/valid-palindrome">125. Valid Palindrom</a></td>
@@ -53,7 +61,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/find-peak-element">162. Find Peak Element</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/first-bad-version">278. First Bad Version</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/valid-perfect-square">367. Valid Perfect Square</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array">852. Peek Index in a Mountain Array</a></td>
         <td>Easy</td>
     </tr>
     <tr>
