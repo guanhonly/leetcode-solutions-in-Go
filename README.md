@@ -38,7 +38,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="10">Binary Search</td>
+        <td rowspan="11">Binary Search</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></td>
@@ -62,6 +62,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/find-peak-element">162. Find Peak Element</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/search-a-2d-matrix-ii/">240. Search a 2D Matrix II</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -285,9 +289,16 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td><a href="https://leetcode.com/problems/implement-trie-prefix-tree">208. Implement Trie (Prefix Tree)</a></td>
         <td>Medium</td>
     </tr>
-     <tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/word-search-ii">212. Word Search II</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Two Pointer</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/valid-palindrome">125. Valid Palindrome</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td rowspan="3">Union Find</td>
