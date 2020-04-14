@@ -81,7 +81,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="5">Binary Tree</td>
+        <td rowspan="7">Binary Tree</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/validate-binary-search-tree">98. Validate Binary Search Tree</a></td>
@@ -92,11 +92,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/balanced-binary-tree">110. Balanced Binary Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree">235. Lowest Common Ancestor of a Binary Search Tree</a></td>
         <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree">236. Lowest Common Ancestor of a Binary Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/binary-tree-paths">257. Binary Tree Paths</a></td>
         <td>Easy</td>
     </tr>
     <tr>
