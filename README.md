@@ -123,10 +123,18 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="5">DFS & BFS</td>
+        <td rowspan="8">DFS & BFS</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parenthese</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/combination-sum/">39. Combination Sum</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/combination-sum-ii/">40. Combination Sum II</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -142,7 +150,11 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="4">Divide & Conquer</td>
+        <td><a href="https://leetcode.com/problems/palindrome-partitioning/">131. Palindrome Partitioning</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Divide & Conquer</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/powx-n">50. Pow(x, n)</a></td>
@@ -155,6 +167,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/majority-element">169. Majority Element</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/sort-an-array/">912. Sort an Array</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td rowspan="14">Dynamic Programming</td>
