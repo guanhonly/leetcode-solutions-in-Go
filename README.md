@@ -123,7 +123,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="8">DFS & BFS</td>
+        <td rowspan="11">DFS & BFS</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parenthese</a></td>
@@ -136,6 +136,18 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/combination-sum-ii/">40. Combination Sum II</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/permutations/">46. Permutations</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/permutations-ii/">47. Permutations II</a></td>
+        <td>Medium</td>
+    </tr>
+        <tr>
+        <td><a href="https://leetcode.com/problems/n-queens/">51. N-Queens</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/binary-tree-level-order-traversal">102. Binary Tree Level Order Traversal</a></td>
