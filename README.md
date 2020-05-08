@@ -15,7 +15,11 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <th>Difficulty</th>
     </tr>
     <tr>
-        <td rowspan="6">Array & Linked List</td>
+        <td rowspan="10">Array & Linked List</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/merge-two-sorted-lists">21. Merge Two Sorted Lists</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/swap-nodes-in-pairs">24. Swap Nodes In Pairs</a></td>
@@ -26,11 +30,23 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Hard</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/partition-list">86. Partition List</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/reverse-linked-list-ii">92. Reverse Linked List II</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/linked-list-cycle">141. Linked List Cycle</a></td>
         <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/linked-list-cycle-ii">142. Linked List Cycle II</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/reorder-list">143. Reorder List</a></td>
         <td>Medium</td>
     </tr>
     <tr>

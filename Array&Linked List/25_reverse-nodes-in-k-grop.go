@@ -14,37 +14,39 @@ package LinkedList
  * Space complexity: O(1)
  */
 func reverseKGroup(head *ListNode, k int) *ListNode {
-	dummyNode := &ListNode{Val: 0}
-	dummyNode.Next = head
-	prevNode, endNode := dummyNode, dummyNode
-	for endNode.Next != nil {
-		for i := 0; i < k && endNode != nil; i++ {
-			endNode = endNode.Next
-		}
-		if endNode == nil {
-			break
-		}
-		startNode := prevNode.Next
-		nextNode := endNode.Next
-		endNode.Next = nil
-		prevNode.Next = reverseList(startNode)
-		startNode.Next = nextNode
-		prevNode = startNode
-		endNode = startNode
+	dummy := new(ListNode)
+	dummy.Next = head
+	prev := dummy
+	for prev != nil {
+		prev = reverseNextKNodes(prev, k)
 	}
-	return dummyNode.Next
+	return dummy.Next
 }
 
-func reverseList(head *ListNode) *ListNode {
-	if head == nil || head.Next == nil {
-		return head
-	}
-	var prevNode *ListNode = nil
+func reverseNextKNodes(head *ListNode, k int) *ListNode {
 	currNode := head
-	for currNode != nil {
-		currNode.Next, prevNode, currNode = prevNode, currNode, currNode.Next
+	for i := 0; i < k; i++ {
+		currNode = currNode.Next
+		if currNode == nil {
+			return currNode
+		}
 	}
-	return prevNode
+	firstNode := head.Next
+	lastNode := currNode
+
+	nextNode := currNode.Next
+
+	// reverse k nodes
+	prevNode := head
+	currNode = head.Next
+	for currNode != nextNode {
+		currNode, currNode.Next, prevNode = currNode.Next, prevNode, currNode
+	}
+
+	// connect to the original node list
+	head.Next = lastNode
+	firstNode.Next = nextNode
+	return firstNode
 }
 
 /**
@@ -64,7 +66,7 @@ func reverseKGroup2(head *ListNode, k int) *ListNode {
 	endNode.Next = nil
 	reversedHead := reverseList(prevNode)
 	if nextNode != nil {
-		prevNode.Next = reverseKGroup(nextNode, k)
+		prevNode.Next = reverseKGroup2(nextNode, k)
 	}
 	return reversedHead
 }

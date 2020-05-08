@@ -34,7 +34,7 @@ func reverseList(head *ListNode) *ListNode {
  * Time complexity: O(n)
  * Space complexity: O(1)
  */
-func reverseList(head *ListNode) *ListNode {
+func reverseList2(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
