@@ -15,7 +15,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <th>Difficulty</th>
     </tr>
     <tr>
-        <td rowspan="10">Array & Linked List</td>
+        <td rowspan="12">Array & Linked List</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/merge-two-sorted-lists">21. Merge Two Sorted Lists</a></td>
@@ -30,11 +30,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Hard</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/rotate-list">61. Rotate List</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/partition-list">86. Partition List</a></td>
         <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/reverse-linked-list-ii">92. Reverse Linked List II</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/copy-list-with-random-pointer">138. Copy List with Random Pointer</a></td>
         <td>Medium</td>
     </tr>
     <tr>
