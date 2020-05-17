@@ -15,7 +15,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <th>Difficulty</th>
     </tr>
     <tr>
-        <td rowspan="12">Array & Linked List</td>
+        <td rowspan="17">Array & Linked List</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/merge-two-sorted-lists">21. Merge Two Sorted Lists</a></td>
@@ -30,6 +30,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Hard</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/maximum-subarray">53. Maximum Subarray</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/rotate-list">61. Rotate List</a></td>
         <td>Medium</td>
     </tr>
@@ -38,7 +42,15 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/merge-sorted-array">88. Merge Sorted Array</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/reverse-linked-list-ii">92. Reverse Linked List II</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree">109. Convert Sorted List to Binary Search Tree</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -58,8 +70,16 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/sort-list">148. Sort List</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/linked-list-cycle-ii">206. Reverse Linked List</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/intersection-of-two-arrays">349. Intersection of Two Arrays</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td rowspan="11">Binary Search</td>
