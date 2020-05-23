@@ -374,10 +374,26 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Hard</td>
     </tr>
     <tr>
-        <td rowspan="2">Two Pointer</td>
+        <td rowspan="6">Two Pointers</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/3sum-closest">16. 3Sum Closest</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/sort-colors">75. Sort Colors</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/valid-palindrome">125. Valid Palindrome</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted">167. Two Sum II - Input array is sorted</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/move-zeroes">283. Move Zeroes</a></td>
         <td>Easy</td>
     </tr>
     <tr>
