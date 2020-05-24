@@ -229,7 +229,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="14">Dynamic Programming</td>
+        <td rowspan="15">Dynamic Programming</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/climbing-stairs">70. Climbling Stairs</a></td>
@@ -258,6 +258,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv">188. Best Time to Buy and Sale Stock IV</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/ugly-number-ii">264. Ugly Number II</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-increasing-subsequence">300. Longest Increasing Subsequence</a></td>
@@ -303,7 +307,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="7">Hash Table</td>
+        <td rowspan="9">Hash Table</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/two-sum">1. Two Sum</a></td>
@@ -322,11 +326,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/longest-consecutive-sequence">128. Longest Consecutive Sequence</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/valid-anagram">242. Valid Anagram</a></td>
         <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/permutation-in-string">567. Permutation in String</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/subarray-sums-divisible-by-k">974. Subarray Sums Divisible by K</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -337,15 +349,27 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="3">Priority Queue & Deque</td>
+        <td rowspan="6">Priority Queue & Deque</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/merge-k-sorted-lists">23. Merge k Sorted Lists</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/sliding-window-maximum">239. Sliding Window Maximum</a></td>
         <td>Hard</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix">378. Kth Smallest Element in a Sorted Matrix</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream">703. Kth Largest Element in a Stream</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/k-closest-points-to-origin">973. K Closest Points to Origin</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td rowspan="4">Stack & Queue</td>
