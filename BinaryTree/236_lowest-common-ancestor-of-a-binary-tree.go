@@ -21,5 +21,6 @@ func lowestCommonAncestor3(root, p, q *TreeNode) *TreeNode {
 	} else if right == nil {
 		return left
 	}
+	// If p and q are in the left and right subtrees, return the root
 	return root
 }
