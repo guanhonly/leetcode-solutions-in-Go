@@ -152,7 +152,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="4">Bitwise Operations</td>
+        <td rowspan="5">Bitwise Operations</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/number-of-1-bits">191. Number of 1 Bits</a></td>
@@ -167,7 +167,11 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="11">DFS & BFS</td>
+        <td><a href="https://leetcode.com/problems/sum-of-two-integers/">371. Sum of Two Integers</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td rowspan="13">DFS & BFS</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parenthese</a></td>
@@ -208,6 +212,14 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/palindrome-partitioning/">131. Palindrome Partitioning</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/increasing-subsequences/">491. Increasing Subsequences</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/cracking-the-safe/">753. Cracking the Safe</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td rowspan="5">Divide & Conquer</td>
