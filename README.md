@@ -241,7 +241,15 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="15">Dynamic Programming</td>
+        <td rowspan="18">Dynamic Programming</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/unique-paths">62. Unique Paths</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/minimum-path-sum">64. Minimum Path Sum</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/climbing-stairs">70. Climbling Stairs</a></td>
@@ -286,6 +294,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/coin-change">322. Coin Change</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/russian-doll-envelopes">354. Russian Doll Envelopes</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee">714. Best Time to Buy and Sell Stock with Transaction Fee</a></td>

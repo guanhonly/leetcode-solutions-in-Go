@@ -32,6 +32,7 @@ func lengthOfLIS(nums []int) int {
 
 /**
  * A more efficient way, binary search is used. It's not dp at all.
+ * This way also cannot get the exact LIS.
  * Time complexity: O(n)
  * Space complexity: O(n)
  */
