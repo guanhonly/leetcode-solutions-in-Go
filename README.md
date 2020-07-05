@@ -82,7 +82,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="11">Binary Search</td>
+        <td rowspan="12">Binary Search</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></td>
@@ -106,6 +106,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/find-peak-element">162. Find Peak Element</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/minimum-size-subarray-sum">209. Minimum Size Subarray Sum</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -241,7 +245,15 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="18">Dynamic Programming</td>
+        <td rowspan="21">Dynamic Programming</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/longest-valid-parentheses">32. Longest Valid Parentheses</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/wildcard-matching">44. Wildcard Matching</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/unique-paths">62. Unique Paths</a></td>
@@ -304,6 +316,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/maximum-length-of-repeated-subarray">718. Maximum Length of Repeated Subarray</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/super-egg-drop">887. Super Egg Drop</a></td>
         <td>Hard</td>
     </tr>
@@ -331,7 +347,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="9">Hash Table</td>
+        <td rowspan="10">Hash Table</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/two-sum">1. Two Sum</a></td>
@@ -344,6 +360,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/4sum">18. 4Sum</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/first-missing-positive">41. First Missing Positive</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/group-anagrams">49. Group Anagrams</a></td>
@@ -422,7 +442,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Hard</td>
     </tr>
     <tr>
-        <td rowspan="6">Two Pointers</td>
+        <td rowspan="7">Two Pointers</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/3sum-closest">16. 3Sum Closest</a></td>
@@ -439,6 +459,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted">167. Two Sum II - Input array is sorted</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/minimum-size-subarray-sum">209. Minimum Size Subarray Sum</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/move-zeroes">283. Move Zeroes</a></td>
