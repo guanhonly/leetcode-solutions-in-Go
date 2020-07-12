@@ -1,7 +1,7 @@
 package BinarySearch
 
-/* Prefix sum, if nums[bound] - nums[i] >= s, means the
- * numbers between
+/* Prefix sum, if sums[bound] - sums[i] >= s, means the
+ * numbers between the bound and i is the subarray we want.
  */
 func minSubArrayLen(s int, nums []int) int {
 	n := len(nums)
@@ -44,4 +44,11 @@ func lowerBound(nums []int, target int) int {
 		return left
 	}
 	return -1
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }

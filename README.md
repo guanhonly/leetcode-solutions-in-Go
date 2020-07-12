@@ -129,7 +129,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="7">Binary Tree</td>
+        <td rowspan="8">Binary Tree</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/validate-binary-search-tree">98. Validate Binary Search Tree</a></td>
@@ -137,6 +137,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/symmetric-tree">101. Symmetric Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/path-sum">112. Path Sum</a></td>
         <td>Easy</td>
     </tr>
     <tr>
@@ -245,7 +249,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="21">Dynamic Programming</td>
+        <td rowspan="23">Dynamic Programming</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-valid-parentheses">32. Longest Valid Parentheses</a></td>
@@ -257,6 +261,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/unique-paths">62. Unique Paths</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/unique-paths-ii">63. Unique Paths II</a></td>
         <td>Medium</td>
     </tr>
     <tr>
@@ -286,6 +294,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/maximum-product-subarray">152. Maximum Product Subarray</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/dungeon-game">174. Dungeon Game</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv">188. Best Time to Buy and Sale Stock IV</a></td>
@@ -431,7 +443,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="3">Trie</td>
+        <td rowspan="4">Trie</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/implement-trie-prefix-tree">208. Implement Trie (Prefix Tree)</a></td>
@@ -440,6 +452,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/word-search-ii">212. Word Search II</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode-cn.com/problems/re-space-lcci">面试题 17.13. 恢复空格</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td rowspan="7">Two Pointers</td>
