@@ -15,7 +15,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <th>Difficulty</th>
     </tr>
     <tr>
-        <td rowspan="17">Array & Linked List</td>
+        <td rowspan="18">Array & Linked List</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/merge-two-sorted-lists">21. Merge Two Sorted Lists</a></td>
@@ -79,6 +79,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/intersection-of-two-arrays">349. Intersection of Two Arrays</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/intersection-of-two-arrays-ii">350. Intersection of Two Arrays II</a></td>
         <td>Easy</td>
     </tr>
     <tr>
@@ -179,7 +183,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="13">DFS & BFS</td>
+        <td rowspan="14">DFS & BFS</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parenthese</a></td>
@@ -226,8 +230,12 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td><a href="https://leetcode.com/problems/cracking-the-safe/">753. Cracking the Safe</a></td>
+        <td><a href="https://leetcode.com/problems/cracking-the-safe">753. Cracking the Safe</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/is-graph-bipartite">785. Is Graph Bipartite?</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td rowspan="5">Divide & Conquer</td>
@@ -249,7 +257,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="23">Dynamic Programming</td>
+        <td rowspan="26">Dynamic Programming</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-valid-parentheses">32. Longest Valid Parentheses</a></td>
@@ -278,6 +286,14 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/edit-distance">72. Edit Distance</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/unique-binary-search-trees">96. Unique Binary Search Trees</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/interleaving-string">97. Interleaving String</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/triangle">120. Triangle</a></td>
@@ -314,6 +330,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown">309. Best Time to Buy and Sell Stock with Cooldown</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/burst-balloons">312. Burst Balloons</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/coin-change">322. Coin Change</a></td>
