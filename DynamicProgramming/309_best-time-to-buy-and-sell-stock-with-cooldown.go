@@ -44,8 +44,8 @@ func maxProfit2(prices []int) int {
 	}
 	dp := make([][3]int, n)
 	dp[0][0] = -prices[0]
-	for i:=1; i<n; i++ {
-		dp[i][0] = max(dp[i-1][0], dp[i-1][2] - prices[i])
+	for i := 1; i < n; i++ {
+		dp[i][0] = max(dp[i-1][0], dp[i-1][2]-prices[i])
 		dp[i][1] = dp[i-1][0] + prices[i]
 		dp[i][2] = max(dp[i-1][1], dp[i-1][2])
 	}
@@ -60,8 +60,8 @@ func maxProfit3(prices []int) int {
 	}
 	var dp0, dp1, dp2 int
 	dp0 = -prices[0]
-	for i:=1; i<n; i++ {
-		newDp0 := max(dp0, dp2 - prices[i])
+	for i := 1; i < n; i++ {
+		newDp0 := max(dp0, dp2-prices[i])
 		newDp1 := dp0 + prices[i]
 		newDp2 := max(dp1, dp2)
 		dp0 = newDp0

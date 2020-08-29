@@ -85,8 +85,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td><a href="https://leetcode.com/problems/intersection-of-two-arrays-ii">350. Intersection of Two Arrays II</a></td>
         <td>Easy</td>
     </tr>
+     <tr>
+        <td rowspan="2">Back Track</td>
+    </tr>
     <tr>
-        <td rowspan="12">Binary Search</td>
+        <td><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">17. Letter Combinations of a Phone Number</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td rowspan="16">Binary Search</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode-cn.com/problems/magic-index-lcci/">08.03. Magic Index LCCI</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">33. Search in Rotated Sorted Array</a></td>
@@ -109,8 +120,16 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/">154. Find Minimum in Rotated Sorted Array II</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/find-peak-element">162. Find Peak Element</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">167. Two Sum II - Input array is sorted</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/minimum-size-subarray-sum">209. Minimum Size Subarray Sum</a></td>
@@ -129,18 +148,46 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/split-array-largest-sum/">410. Split Array Largest Sum</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array">852. Peek Index in a Mountain Array</a></td>
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="8">Binary Tree</td>
+        <td rowspan="15">Binary Tree</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/unique-binary-search-trees-ii/">95. Unique Binary Search Trees II</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/validate-binary-search-tree">98. Validate Binary Search Tree</a></td>
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/recover-binary-search-tree/">99. Recover Binary Search Tree</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/same-tree/">100. Same Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/symmetric-tree">101. Symmetric Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">104. Maximum Depth of Binary Tree</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/">109. Convert Sorted List to Binary Search Tree</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/balanced-binary-tree">110. Balanced Binary Tree</a></td>
         <td>Easy</td>
     </tr>
     <tr>
@@ -148,8 +195,8 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td><a href="https://leetcode.com/problems/balanced-binary-tree">110. Balanced Binary Tree</a></td>
-        <td>Easy</td>
+        <td><a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/">114. Flatten Binary Tree to Linked List</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree">235. Lowest Common Ancestor of a Binary Search Tree</a></td>
@@ -164,11 +211,19 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="5">Bitwise Operations</td>
+        <td><a href="https://leetcode.com/problems/house-robber-iii/">337. House Robber III</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td rowspan="6">Bitwise Operations</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/number-of-1-bits">191. Number of 1 Bits</a></td>
         <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/bitwise-and-of-numbers-range/">201. Bitwise AND of Numbers Range</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/power-of-two">231. Power of Two</a></td>
@@ -183,7 +238,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="14">DFS & BFS</td>
+        <td rowspan="23">DFS & BFS</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/generate-parentheses">22. Generate Parenthese</a></td>
@@ -205,9 +260,13 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td><a href="https://leetcode.com/problems/permutations-ii/">47. Permutations II</a></td>
         <td>Medium</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/n-queens/">51. N-Queens</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/restore-ip-addresses/">93. Restore IP Addresses</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/binary-tree-level-order-traversal">102. Binary Tree Level Order Traversal</a></td>
@@ -222,12 +281,44 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/surrounded-regions/">130. Surrounded Regions</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/palindrome-partitioning/">131. Palindrome Partitioning</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/clone-graph/">133. Clone Graph</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/course-schedule/">207. Course Schedule</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/longest-increasing-path-in-a-matrix/">329. Longest Increasing Path in a Matrix</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/reconstruct-itinerary/">332. Reconstruct Itinerary</a></td>
         <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/increasing-subsequences/">491. Increasing Subsequences</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/minesweeper/">529. Minesweeper</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/24-game/">679. 24 Game</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/flood-fill/">733. Flood Fill</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/cracking-the-safe">753. Cracking the Safe</a></td>
@@ -257,7 +348,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="26">Dynamic Programming</td>
+        <td rowspan="31">Dynamic Programming</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-valid-parentheses">32. Longest Valid Parentheses</a></td>
@@ -340,8 +431,24 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/integer-break/">343. Integer Break</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/russian-doll-envelopes">354. Russian Doll Envelopes</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/is-subsequence/">392. Is Subsequence</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/remove-boxes/">546. Remove Boxes</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/palindromic-substrings/">647. Palindromic Substrings</a></td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee">714. Best Time to Buy and Sell Stock with Transaction Fee</a></td>
@@ -354,6 +461,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/super-egg-drop">887. Super Egg Drop</a></td>
         <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/divisor-game/">1025. Divisor Game</a></td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/uncrossed-lines">1035. Uncrossed Lines</a></td>
@@ -379,7 +490,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
-        <td rowspan="10">Hash Table</td>
+        <td rowspan="12">Hash Table</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/two-sum">1. Two Sum</a></td>
@@ -410,8 +521,16 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Easy</td>
     </tr>
     <tr>
+        <td><a href="https://leetcode.com/problems/palindrome-pairs/">336. Palindrome Pairs</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
         <td><a href="https://leetcode.com/problems/permutation-in-string">567. Permutation in String</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/">632. Smallest Range Covering Elements from K Lists</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/subarray-sums-divisible-by-k">974. Subarray Sums Divisible by K</a></td>
@@ -425,7 +544,7 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
         <td>Medium</td>
     </tr>
     <tr>
-        <td rowspan="6">Priority Queue & Deque</td>
+        <td rowspan="7">Priority Queue & Deque</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/merge-k-sorted-lists">23. Merge k Sorted Lists</a></td>
@@ -438,6 +557,10 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     <tr>
         <td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix">378. Kth Smallest Element in a Sorted Matrix</a></td>
         <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/">632. Smallest Range Covering Elements from K Lists</a></td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/kth-largest-element-in-a-stream">703. Kth Largest Element in a Stream</a></td>
@@ -460,6 +583,33 @@ Chinese(Simplified): [Go语言之旅](https://tour.go-zh.org/welcome/1)
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/implement-queue-using-stacks">232. Implement Queue using Stacks</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td rowspan="7">String</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/multiply-strings/">43. Multiply Strings</a></td>
+        <td>Medium</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/shortest-palindrome/">214. Shortest Palindrome</a></td>
+        <td>Hard</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/add-strings/">415. Add Strings</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/repeated-substring-pattern/">459. Repeated Substring Pattern</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/robot-return-to-origin/">657. Robot Return to Origin</a></td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/count-binary-substrings/">696. Count Binary Substrings</a></td>
         <td>Easy</td>
     </tr>
     <tr>
